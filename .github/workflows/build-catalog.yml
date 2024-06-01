@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    name: Build and push Docker image
+    name: Build Docker image
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:

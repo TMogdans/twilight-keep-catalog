@@ -19,32 +19,25 @@ module.exports = {
     src: 'logo.svg',
   },
   headerLinks: [
-    { label: 'Events', href: '/events'},
     { label: 'Services', href: '/services' },
-    { label: 'Domains', href: '/domains'},
+    { label: 'Events', href: '/events'},
     { label: 'Users', href: '/users'},
     { label: 'Visualiser', href: '/visualiser' },
     { label: '3D Node Graph', href: '/overview' },
   ],
   footerLinks: [
-    { label: 'Events', href: '/events' },
     { label: 'Services', href: '/services' },
+    { label: 'Events', href: '/events' },
     { label: 'Visualiser', href: '/visualiser' },
     { label: '3D Node Graph', href: '/overview' },
     { label: 'GitHub', href: 'https://github.com/boyney123/eventcatalog-demo/edit/master' }
   ],
   users: [
     {
-      id: 'dboyne',
-      name: 'David Boyne',
-      avatarUrl: 'https://pbs.twimg.com/profile_images/1262283153563140096/DYRDqKg6_400x400.png',
+      id: 'tmogdans',
+      name: 'Tobias Mogdans',
+      avatarUrl: 'https://2.gravatar.com/avatar/2d37471b3b3d7ef8cfe25e47f4d1ba901249a6fccbd629f02e5f6335de9de523?size=512',
       role: 'Developer',
-    },
-    {
-      id: 'mSmith',
-      name: 'Matthew Smith',
-      avatarUrl: 'https://randomuser.me/api/portraits/lego/3.jpg',
-      role: 'Developer',
-    },
+    }
   ],
 }
